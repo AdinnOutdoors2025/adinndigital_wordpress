@@ -1,0 +1,37 @@
+# WordPress core (optional ignore if using composer)
+# wp-admin/
+# wp-includes/
+
+# WordPress config
+wp-config.php
+.env
+
+# Uploads (media files)
+wp-content/uploads/
+
+# Cache
+wp-content/cache/
+wp-content/w3tc-cache/
+
+# Backups
+wp-content/backups/
+
+# Upgrade temp
+wp-content/upgrade/
+
+# Logs
+*.log
+error_log
+
+# Database exports
+*.sql
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node / build
+node_modules/
+
+# Vendor libraries
+vendor/
